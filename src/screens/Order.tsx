@@ -27,7 +27,7 @@ const Order: React.FC = () => {
   };
   /*
   useEffect(() => {
-    fetch("http://127.0.0.1:3000/order")
+    fetch("http://127.0.0.1:3005/order")
       .then((res) => res.json())
       .then((data) => setLoadData(data));
   }, []);

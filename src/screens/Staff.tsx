@@ -21,7 +21,7 @@ const Staff: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:3000/person")
+    fetch("http://127.0.0.1:3005/person")
       .then((res) => res.json())
       .then((data) => {
         setStaff(data);
