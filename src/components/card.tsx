@@ -38,7 +38,7 @@ export const PersonCard = (item) => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id: id }),
       };
-      await fetch("http://127.0.0.1:3005/person", requestOptions);
+      await fetch("http://89.108.88.183:3005/person", requestOptions);
     }
   };
 
@@ -55,7 +55,7 @@ export const PersonCard = (item) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     };
-    await fetch("http://127.0.0.1:3005/person", requestOptions);
+    await fetch("http://89.108.88.183:3005/person", requestOptions);
     openNotification();
   };
 
@@ -127,7 +127,7 @@ export const ProductCard = (item) => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id: id }),
       };
-      await fetch("http://127.0.0.1:3005/product", requestOptions);
+      await fetch("http://89.108.88.183:3005/product", requestOptions);
     }
   };
 
@@ -142,7 +142,7 @@ export const ProductCard = (item) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     };
-    await fetch("http://127.0.0.1:3005/product", requestOptions);
+    await fetch("http://89.108.88.183:3005/product", requestOptions);
     openNotification();
   };
 
